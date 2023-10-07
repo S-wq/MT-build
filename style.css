@@ -687,30 +687,29 @@ header .nav-link:hover {
   height: 0;
 }
 
-.calculations {
+.calculation {
   overflow-x: clip;
 }
-.calculations-row {
+.calculation-row {
   display: flex;
   align-items: flex-start;
 }
-.calculations-form {
+.calculation-form {
   background: #363A4D;
   border-radius: 20px;
   padding: 49px 47px 40px;
 }
-.calculations-form [class=col-lg-6] {
+.calculation-form [class=col-lg-6] {
   padding-right: 15px;
   padding-left: 15px;
 }
-.calculations-decoration {
-  margin-left: -25px;
-  margin-bottom: -76px;
-  margin-top: -155px;
+.calculation-decoration {
+  margin-left: -27px;
+  margin-top: -178px;
   width: 100%;
   min-width: calc(100% + 30px);
 }
-.calculations label[for=fileInput] {
+.calculation label[for=fileInput] {
   width: calc(100% - 5px);
   border-radius: 10px;
   border: 1px dashed rgba(255, 255, 255, 0.2588235294);
@@ -770,12 +769,12 @@ header .nav-link:hover {
 }
 
 @media (min-width: 992px) {
-  .calculations {
+  .calculation {
     overflow-x: clip;
     padding-top: 41px;
     margin-bottom: 0;
   }
-  .calculations-form {
+  .calculation-form {
     min-width: 625px;
   }
 }
@@ -924,6 +923,11 @@ header .nav-link:hover {
   .check-button {
     margin-bottom: 7px;
     padding-left: 4px;
+  }
+}
+@media screen and (max-width: 955px) {
+  .carousel-template {
+    max-width: 390px;
   }
 }
 /*# sourceMappingURL=style.css.map */
